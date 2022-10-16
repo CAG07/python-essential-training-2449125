@@ -35,7 +35,7 @@ class TerminalScribe:
         self.canvas = canvas
         self.trail = '.'
         self.mark = '*'
-        self.framerate = 0.2
+        self.framerate = 0.025
         self.pos = [0, 0]
 
     def up(self):
@@ -59,8 +59,29 @@ class TerminalScribe:
             self.draw(pos)
 
     def drawSquare(self, size):
-        
+        i = 0
+        while i < (size):
+            self.right()
+            i = i + 1
+        i = 0    
+        while i < (size):
+            self.down()
+            i = i + 1
+        i = 0    
+        while i < (size):
+            self.left()
+            i = i + 1
+        i = 0    
+        while i < (size):
+            self.up()
+            i = i + 1  
 
+    def draw(self, pos):
+        self.canvas.setPos(self.pos, self.trail)
+        self.pos = pos
+        self.canvas.setPos(self.pos, colored(self.mark, 'blue'))
+        self.canvas.print()
+        time.sleep(self.framerate)    
   
 # Create a new Canvas instance that is 30 units wide by 30 units tall 
 canvas = Canvas(30, 30)
@@ -68,20 +89,5 @@ canvas = Canvas(30, 30)
 # Create a new scribe and give it the Canvas object
 scribe = TerminalScribe(canvas)
 
-# Draw a small square
-scribe.right()
-scribe.right()
-scribe.right()
-scribe.down()
-scribe.down()
-scribe.down()
-scribe.left()
-scribe.left()
-scribe.left()
-scribe.up()
-scribe.up()
-scribe.up()
-
-
-
+scribe.drawSquare(20)
 
