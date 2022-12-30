@@ -1,0 +1,172 @@
+Course Title: Python Essential Training
+
+Description: Python is one of the most used dynamic languages for many large organizations, including Google, Yahoo, and IBM. Supported on all major operating systems, it comes pre-installed on Macs, and most Linux and Unix-based systems. In this course, instructor Ryan Mitchell gives you a comprehensive, accessible overview of Python 3. Ryan covers topics required for day-to-day programming in Python, including data types, data structures, operators and statements, control flow, loops, functions, classes, exception handling, and file management. If you’re just starting out on a computer programming journey and want to learn how to write Python programs to accomplish a wide variety of tasks, join Ryan in this course to start building a solid foundation to a Python career.
+
+
+***********************************************
+Chapter: 2. Quick Start
+***********************************************
+
+
+-----------------------------------------------
+Video: Operators
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:58            Any time division is performed, a float is returned 
+
+
+-----------------------------------------------
+Video: Functions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:10            none is a special Python keyword (null in other languages) 
+
+
+-----------------------------------------------
+Video: Classes and objects
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:51            Classes usually start with uppercase letters 
+
+0:02:36            init is the initialization function 
+
+
+***********************************************
+Chapter: 3. Basic Data Types
+***********************************************
+
+
+-----------------------------------------------
+Video: Ints and floats
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:07            Integers throw away everything to the right of the decimal point 
+
+0:03:23            Floats are approximations      
+
+
+-----------------------------------------------
+Video: Booleans
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:31            Booleans: anything other than an empty string is going to be True  bool('False') = True 
+
+0:02:22            You're usually checking the Boolean value of statements inside if statements and for loops 
+
+
+-----------------------------------------------
+Video: Strings
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:15            name[0:7] displays the characters up to index [7]. It does not include the 7th character 
+
+0:03:21            f'My number is: {5}'      Output: 'My number is: 5' 
+
+
+***********************************************
+Chapter: 4. Basic Data Structures
+***********************************************
+
+
+-----------------------------------------------
+Video: Lists
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:44            myList[0:6:2] prints out every other item [1,3,5] 
+
+
+-----------------------------------------------
+Video: Tuples and sets
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:37            Sets are declared with curly brackets {}  All elements are unique and the order does not matter 
+
+0:04:51            Tuples are declared with parentheses 
+
+0:05:33            Tuples cannot be modified      
+
+0:06:42            Parentheses should be included around tuples, even though they are not required 
+
+
+-----------------------------------------------
+Video: Dictionaries
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:06            Lists can include dictionary objects 
+
+
+***********************************************
+Chapter: 5. Control Flow
+***********************************************
+
+
+-----------------------------------------------
+Video: While
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:27            A pass statement preserves indentation, but doesn't do anything else 
+
+0:04:07            The break statement will go up each line until it reaches while and then breaks out of the loop 
+
+
+***********************************************
+Chapter: 6. Functions
+***********************************************
+
+
+-----------------------------------------------
+Video: Variables and scope
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:43            Local scope is checked first and then the global scope 
+
+
+***********************************************
+Chapter: 7. Classes and Objects
+***********************************************
+
+
+-----------------------------------------------
+Video: The anatomy of a class
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:02            Static attributes are often used for recurring business logic as one use case 
+
+
+***********************************************
+Chapter: 11. Packaging Python
+***********************************************
+
+
+-----------------------------------------------
+Video: Creating modules and packages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:36            Python libraries can be modules or packages, but people usually mean packages when talking about libraries 
+
+
+***********************************************
+Chapter: Conclusion
+***********************************************
+
+
+-----------------------------------------------
+Video: Wrap up
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:21            selenium.dev, Flask for APIs   
+
